@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="./p5.play.js"></script>
+  <script src="matter.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <!--database configuration-->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDI70gmRWgwa2KXkwpsAEtWLx6jomqpyeI",
+      authDomain: "synchronous-sprite-movement.firebaseapp.com",
+      databaseURL: "https://synchronous-sprite-movement-default-rtdb.firebaseio.com",
+      projectId: "synchronous-sprite-movement",
+      storageBucket: "synchronous-sprite-movement.appspot.com",
+      messagingSenderId: "472671232702",
+      appId: "1:472671232702:web:2f69d025ee4e9926e874ef"
+    };
+    firebase.initializeApp(firebaseConfig)
+  </script>
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+
+
+</body>
+
+</html>
